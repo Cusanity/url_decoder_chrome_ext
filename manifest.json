@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "URL Decode",
+  "short_name": "Search",
+  "description": "Decode selected URL",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+  "permissions": [
+    "contextMenus", 
+    "tabs"],
+  "icons": {
+    "16": "assets/icon.png",
+    "48": "assets/icon.png",
+    "128": "assets/icon.png"
+  },
+  "background": {
+    "service_worker": "main.js"
+  }
+}
